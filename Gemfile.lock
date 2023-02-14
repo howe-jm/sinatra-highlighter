@@ -1,12 +1,31 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    mini_portile2 (2.8.1)
+    minitest (5.15.0)
+    minitest-reporters (1.5.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    pygments.rb (2.3.1)
+    nio4r (2.5.8)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    puma (6.1.0)
+      nio4r (~> 2.0)
+    racc (1.6.2)
     rack (2.2.6.2)
     rack-protection (3.0.5)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (13.0.6)
+    ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     sinatra (3.0.5)
       mustermann (~> 3.0)
@@ -19,7 +38,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  pygments.rb
+  minitest
+  minitest-reporters
+  nokogiri
+  puma
+  rack-test
+  rake
   sinatra
 
 BUNDLED WITH

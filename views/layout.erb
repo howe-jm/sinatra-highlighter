@@ -1,0 +1,18 @@
+<!DOCTYPE html lang="en" >
+<html>
+  <head>
+    <title>Sinatra Highlighter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Sinatra Highlighter</h1>
+    </header>
+    <main>
+      <%= yield %>
+    </main>
+  </body>
+</html>

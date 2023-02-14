@@ -3,4 +3,12 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
-gem 'pygments.rb'
+gem 'puma'
+
+group :test do
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'rack-test'
+  gem 'rake'
+  gem 'nokogiri'
+end

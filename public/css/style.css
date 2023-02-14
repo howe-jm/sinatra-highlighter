@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  max-width: 100ch;
+}
+
+h1 {
+  text-align: center;
+}
+
+pre {
+  background-color: #F4F4F4;
+  border: 1px solid #CCC;
+  padding: 10px;
+}
+
+pre code {
+  display: block;
+  font-size: 14px;
+  font-family: Consolas,Monaco,Andale Mono,monospace;
+  color: #333;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+textarea {
+  width: 100%;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  display: block;
+  margin-bottom: 10px;
+}
